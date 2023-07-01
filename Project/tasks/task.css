@@ -1,0 +1,16 @@
+.clock-item {
+	background-color: #2a75e6;
+	border-radius: 10%;
+	padding: 10px;
+	margin: 0px 5px 0 5px;
+}
+
+.clock-container {
+	margin-top: 20px;
+}
+
+.clock-items {
+	display: flex;
+	justify-content: flex-end;
+	margin-left: 10px;
+}
