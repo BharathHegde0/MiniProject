@@ -1,6 +1,5 @@
-<?php include("header.php"); ?>
 
-<link rel="stylesheet" href="tasks/task.css">
+<link rel="stylesheet" href="tasks/clock.css">
 
 <section class="tasks-body">
     <section class="clock-container">

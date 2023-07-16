@@ -20,7 +20,7 @@
                 </div>
 
                 <div>
-                    <a href="taskman.php"><p>Task Manager</p></a>
+                    <a href="tasks.php"><p>Task Manager</p></a>
                 </div>
                 
                 <div>
