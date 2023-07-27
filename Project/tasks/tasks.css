@@ -3,21 +3,6 @@ body {
 	background-color: #031d44;
 }
 
-.tasks-page-container {
-	animation: fadeInAnimation ease 2s;
-	animation-iteration-count: 1;
-	animation-fill-mode: forwards;
-}
-
-@keyframes fadeInAnimation {
-	0% {
-		opacity: 0;
-	}
-	100% {
-		opacity: 1;
-	}
-}
-
 /* ---------------------------------------------- */
 
 /* Full Page */
@@ -107,8 +92,7 @@ body {
 
 .tasks-item {
 	display: block;
-	/* background-color: rgb(148, 190, 169); */
-	background-color: rgb(128, 184, 157);
+	background-color: rgb(148, 190, 169);
 	margin: 15px;
 	width: inherit;
 	border-radius: 20px;
@@ -119,8 +103,7 @@ body {
 }
 
 .task-input-el {
-	/* background-color: rgb(148, 190, 169); */
-	background-color: rgb(128, 184, 157);
+	background-color: rgb(148, 190, 169);
 	border: none;
 	outline: none;
 	margin-left: 3px;
@@ -142,8 +125,7 @@ body {
 }
 
 .tasks-item .edit-del button {
-	/* background-color: rgb(148, 190, 169); */
-	background-color: rgb(128, 184, 157);
+	background-color: rgb(148, 190, 169);
 	border: none;
 	color: rgb(215, 238, 227);
 	font-size: 15px;
@@ -152,8 +134,7 @@ body {
 }
 
 .tasks-item .edit-del button .delete {
-	/* background-color: rgb(148, 190, 169); */
-	background-color: rgb(128, 184, 157);
+	background-color: rgb(148, 190, 169);
 	border: none;
 	color: red;
 	font-size: 15px;
