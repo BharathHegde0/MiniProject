@@ -4,8 +4,6 @@ window.addEventListener("load", () => {
 	const list_el = document.querySelector(".tasks");
 	const for_but = document.querySelector(".tasks-add-button");
 
-	const LOCAL_STORAGE_KEY = "tasks.list";
-
 	function addDragListeners() {
 		const draggable = document.querySelectorAll(".draggable");
 		const containers = document.querySelectorAll(".tasks-board");

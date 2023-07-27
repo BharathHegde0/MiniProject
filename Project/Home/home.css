@@ -1,0 +1,43 @@
+.home-container {
+	background-image: linear-gradient(#031d44, #2a75e6);
+	height: 100vh;
+}
+
+.home-container .home-text-container {
+	padding-top: 300px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.home-container .home-text-container .home-big-text {
+	font-size: 80px;
+	font-weight: 700;
+}
+
+.home-button {
+	margin-top: 25px;
+}
+
+.home-button button {
+	padding: 15px;
+	font-size: 20px;
+	font-weight: 600;
+	background-color: transparent;
+	border-radius: 30px;
+	outline: none;
+	border: 2px solid #fffefe;
+	color: #fffefe;
+}
+
+.home-button button:hover {
+	background-color: #2a75e6;
+	color: #031d44;
+	border-color: #031d44;
+	transition: 100ms;
+}
+
+.home-button button:active {
+	background-color: #2158aa;
+}
