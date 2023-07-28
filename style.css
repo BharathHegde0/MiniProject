@@ -1,13 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 
 * {
-	font-family: Nunito, sans-serif;
-}
-
-*::-webkit-scrollbar {
-	-ms-overflow-style: none; /* for Internet Explorer, Edge */
-	scrollbar-width: none; /* for Firefox */
-	overflow-y: scroll;
+	font-family: Nunito;
 }
 
 body {
@@ -16,7 +10,7 @@ body {
 	background-color: #010101;
 }
 
-/* a {
+a {
 	text-decoration: none;
 	color: #fffefe;
 }
@@ -24,42 +18,8 @@ body {
 a:hover {
 	color: #2a75e6;
 	transition: 180ms;
-} */
-
-a {
-	text-decoration: none;
-	color: #fffefe;
-	position: relative;
 }
 
-.nav-links:after {
-	content: "";
-	position: absolute;
-	width: 0;
-	height: 2px;
-	display: block;
-	margin-top: 0px;
-	right: 0;
-	background: #fff;
-	transition: width 0.2s ease;
-	-webkit-transition: width 0.2s ease;
-}
-
-.nav-links:hover:after {
-	width: 100%;
-	left: 0;
-	background: #2a75e6;
-}
-
-.nav-links:hover {
-	color: #2a75e6;
-	text-decoration: none;
-	transition: 100ms;
-}
-.nav-links:active {
-	color: #1f55a7;
-}
-/* --------- */
 .header-container {
 	display: grid;
 	grid-template-columns: 5fr 3fr;
@@ -82,8 +42,3 @@ a {
 .header-container .logo {
 	padding-top: 4px;
 }
-
-/* .stick {
-	position: absolute;
-	
-} */
